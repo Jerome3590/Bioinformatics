@@ -1,0 +1,1941 @@
+{
+  "_mapping": {
+    "files.access": {
+      "description": "",
+      "doc_type": "files",
+      "field": "access",
+      "full": "files.access",
+      "type": "string"
+    },
+    "files.acl": {
+      "description": "",
+      "doc_type": "files",
+      "field": "acl",
+      "full": "files.acl",
+      "type": "string"
+    },
+    "files.analysis.analysis_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.analysis_id",
+      "full": "files.analysis.analysis_id",
+      "type": "string"
+    },
+    "files.analysis.analysis_type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.analysis_type",
+      "full": "files.analysis.analysis_type",
+      "type": "string"
+    },
+    "files.analysis.created_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.created_datetime",
+      "full": "files.analysis.created_datetime",
+      "type": "string"
+    },
+    "files.analysis.input_files.created_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.created_datetime",
+      "full": "files.analysis.input_files.created_datetime",
+      "type": "string"
+    },
+    "files.analysis.input_files.data_category": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.data_category",
+      "full": "files.analysis.input_files.data_category",
+      "type": "string"
+    },
+    "files.analysis.input_files.data_format": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.data_format",
+      "full": "files.analysis.input_files.data_format",
+      "type": "string"
+    },
+    "files.analysis.input_files.data_type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.data_type",
+      "full": "files.analysis.input_files.data_type",
+      "type": "string"
+    },
+    "files.analysis.input_files.error_type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.error_type",
+      "full": "files.analysis.input_files.error_type",
+      "type": "string"
+    },
+    "files.analysis.input_files.experimental_strategy": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.experimental_strategy",
+      "full": "files.analysis.input_files.experimental_strategy",
+      "type": "string"
+    },
+    "files.analysis.input_files.file_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.file_id",
+      "full": "files.analysis.input_files.file_id",
+      "type": "id"
+    },
+    "files.analysis.input_files.file_name": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.file_name",
+      "full": "files.analysis.input_files.file_name",
+      "type": "string"
+    },
+    "files.analysis.input_files.file_size": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.file_size",
+      "full": "files.analysis.input_files.file_size",
+      "type": "long"
+    },
+    "files.analysis.input_files.file_state": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.file_state",
+      "full": "files.analysis.input_files.file_state",
+      "type": "string"
+    },
+    "files.analysis.input_files.md5sum": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.md5sum",
+      "full": "files.analysis.input_files.md5sum",
+      "type": "string"
+    },
+    "files.analysis.input_files.platform": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.platform",
+      "full": "files.analysis.input_files.platform",
+      "type": "string"
+    },
+    "files.analysis.input_files.revision": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.revision",
+      "full": "files.analysis.input_files.revision",
+      "type": "long"
+    },
+    "files.analysis.input_files.state": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.state",
+      "full": "files.analysis.input_files.state",
+      "type": "string"
+    },
+    "files.analysis.input_files.state_comment": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.state_comment",
+      "full": "files.analysis.input_files.state_comment",
+      "type": "string"
+    },
+    "files.analysis.input_files.submitter_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.submitter_id",
+      "full": "files.analysis.input_files.submitter_id",
+      "type": "string"
+    },
+    "files.analysis.input_files.updated_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.input_files.updated_datetime",
+      "full": "files.analysis.input_files.updated_datetime",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.RIN": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.RIN",
+      "full": "files.analysis.metadata.read_groups.RIN",
+      "type": "long"
+    },
+    "files.analysis.metadata.read_groups.adapter_name": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.adapter_name",
+      "full": "files.analysis.metadata.read_groups.adapter_name",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.adapter_sequence": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.adapter_sequence",
+      "full": "files.analysis.metadata.read_groups.adapter_sequence",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.base_caller_name": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.base_caller_name",
+      "full": "files.analysis.metadata.read_groups.base_caller_name",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.base_caller_version": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.base_caller_version",
+      "full": "files.analysis.metadata.read_groups.base_caller_version",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.created_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.created_datetime",
+      "full": "files.analysis.metadata.read_groups.created_datetime",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.experiment_name": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.experiment_name",
+      "full": "files.analysis.metadata.read_groups.experiment_name",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.flow_cell_barcode": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.flow_cell_barcode",
+      "full": "files.analysis.metadata.read_groups.flow_cell_barcode",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.includes_spike_ins": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.includes_spike_ins",
+      "full": "files.analysis.metadata.read_groups.includes_spike_ins",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.instrument_model": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.instrument_model",
+      "full": "files.analysis.metadata.read_groups.instrument_model",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.is_paired_end": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.is_paired_end",
+      "full": "files.analysis.metadata.read_groups.is_paired_end",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.library_name": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.library_name",
+      "full": "files.analysis.metadata.read_groups.library_name",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.library_preparation_kit_catalog_number": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.library_preparation_kit_catalog_number",
+      "full": "files.analysis.metadata.read_groups.library_preparation_kit_catalog_number",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.library_preparation_kit_name": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.library_preparation_kit_name",
+      "full": "files.analysis.metadata.read_groups.library_preparation_kit_name",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.library_preparation_kit_vendor": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.library_preparation_kit_vendor",
+      "full": "files.analysis.metadata.read_groups.library_preparation_kit_vendor",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.library_preparation_kit_version": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.library_preparation_kit_version",
+      "full": "files.analysis.metadata.read_groups.library_preparation_kit_version",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.library_selection": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.library_selection",
+      "full": "files.analysis.metadata.read_groups.library_selection",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.library_strand": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.library_strand",
+      "full": "files.analysis.metadata.read_groups.library_strand",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.library_strategy": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.library_strategy",
+      "full": "files.analysis.metadata.read_groups.library_strategy",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.platform": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.platform",
+      "full": "files.analysis.metadata.read_groups.platform",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.read_group_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.read_group_id",
+      "full": "files.analysis.metadata.read_groups.read_group_id",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.read_group_name": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.read_group_name",
+      "full": "files.analysis.metadata.read_groups.read_group_name",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.read_length": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.read_length",
+      "full": "files.analysis.metadata.read_groups.read_length",
+      "type": "long"
+    },
+    "files.analysis.metadata.read_groups.sequencing_center": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.sequencing_center",
+      "full": "files.analysis.metadata.read_groups.sequencing_center",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.sequencing_date": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.sequencing_date",
+      "full": "files.analysis.metadata.read_groups.sequencing_date",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.size_selection_range": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.size_selection_range",
+      "full": "files.analysis.metadata.read_groups.size_selection_range",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.spike_ins_concentration": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.spike_ins_concentration",
+      "full": "files.analysis.metadata.read_groups.spike_ins_concentration",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.spike_ins_fasta": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.spike_ins_fasta",
+      "full": "files.analysis.metadata.read_groups.spike_ins_fasta",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.state": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.state",
+      "full": "files.analysis.metadata.read_groups.state",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.submitter_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.submitter_id",
+      "full": "files.analysis.metadata.read_groups.submitter_id",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.target_capture_kit_catalog_number": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.target_capture_kit_catalog_number",
+      "full": "files.analysis.metadata.read_groups.target_capture_kit_catalog_number",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.target_capture_kit_name": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.target_capture_kit_name",
+      "full": "files.analysis.metadata.read_groups.target_capture_kit_name",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.target_capture_kit_target_region": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.target_capture_kit_target_region",
+      "full": "files.analysis.metadata.read_groups.target_capture_kit_target_region",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.target_capture_kit_vendor": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.target_capture_kit_vendor",
+      "full": "files.analysis.metadata.read_groups.target_capture_kit_vendor",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.target_capture_kit_version": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.target_capture_kit_version",
+      "full": "files.analysis.metadata.read_groups.target_capture_kit_version",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.to_trim_adapter_sequence": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.to_trim_adapter_sequence",
+      "full": "files.analysis.metadata.read_groups.to_trim_adapter_sequence",
+      "type": "string"
+    },
+    "files.analysis.metadata.read_groups.updated_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.metadata.read_groups.updated_datetime",
+      "full": "files.analysis.metadata.read_groups.updated_datetime",
+      "type": "string"
+    },
+    "files.analysis.state": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.state",
+      "full": "files.analysis.state",
+      "type": "string"
+    },
+    "files.analysis.submitter_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.submitter_id",
+      "full": "files.analysis.submitter_id",
+      "type": "string"
+    },
+    "files.analysis.updated_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.updated_datetime",
+      "full": "files.analysis.updated_datetime",
+      "type": "string"
+    },
+    "files.analysis.workflow_end_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.workflow_end_datetime",
+      "full": "files.analysis.workflow_end_datetime",
+      "type": "string"
+    },
+    "files.analysis.workflow_link": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.workflow_link",
+      "full": "files.analysis.workflow_link",
+      "type": "string"
+    },
+    "files.analysis.workflow_start_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.workflow_start_datetime",
+      "full": "files.analysis.workflow_start_datetime",
+      "type": "string"
+    },
+    "files.analysis.workflow_type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.workflow_type",
+      "full": "files.analysis.workflow_type",
+      "type": "string"
+    },
+    "files.analysis.workflow_version": {
+      "description": "",
+      "doc_type": "files",
+      "field": "analysis.workflow_version",
+      "full": "files.analysis.workflow_version",
+      "type": "string"
+    },
+    "files.annotations.annotation_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "annotations.annotation_id",
+      "full": "files.annotations.annotation_id",
+      "type": "string"
+    },
+    "files.annotations.case_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "annotations.case_id",
+      "full": "files.annotations.case_id",
+      "type": "string"
+    },
+    "files.annotations.case_submitter_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "annotations.case_submitter_id",
+      "full": "files.annotations.case_submitter_id",
+      "type": "string"
+    },
+    "files.annotations.category": {
+      "description": "Top level characterization of the annotation.",
+      "doc_type": "files",
+      "field": "annotations.category",
+      "full": "files.annotations.category",
+      "type": "string"
+    },
+    "files.annotations.classification": {
+      "description": "Top level classification of the annotation.",
+      "doc_type": "files",
+      "field": "annotations.classification",
+      "full": "files.annotations.classification",
+      "type": "string"
+    },
+    "files.annotations.created_datetime": {
+      "description": "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]\n",
+      "doc_type": "files",
+      "field": "annotations.created_datetime",
+      "full": "files.annotations.created_datetime",
+      "type": "string"
+    },
+    "files.annotations.creator": {
+      "description": "Name of the person or entity responsible for the creation of the annotation.",
+      "doc_type": "files",
+      "field": "annotations.creator",
+      "full": "files.annotations.creator",
+      "type": "string"
+    },
+    "files.annotations.entity_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "annotations.entity_id",
+      "full": "files.annotations.entity_id",
+      "type": "string"
+    },
+    "files.annotations.entity_submitter_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "annotations.entity_submitter_id",
+      "full": "files.annotations.entity_submitter_id",
+      "type": "string"
+    },
+    "files.annotations.entity_type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "annotations.entity_type",
+      "full": "files.annotations.entity_type",
+      "type": "string"
+    },
+    "files.annotations.legacy_created_datetime": {
+      "description": "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]\n",
+      "doc_type": "files",
+      "field": "annotations.legacy_created_datetime",
+      "full": "files.annotations.legacy_created_datetime",
+      "type": "string"
+    },
+    "files.annotations.legacy_updated_datetime": {
+      "description": "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]\n",
+      "doc_type": "files",
+      "field": "annotations.legacy_updated_datetime",
+      "full": "files.annotations.legacy_updated_datetime",
+      "type": "string"
+    },
+    "files.annotations.notes": {
+      "description": "Open entry for any further description or characterization of the data.",
+      "doc_type": "files",
+      "field": "annotations.notes",
+      "full": "files.annotations.notes",
+      "type": "string"
+    },
+    "files.annotations.state": {
+      "description": "The current state of the object.\n",
+      "doc_type": "files",
+      "field": "annotations.state",
+      "full": "files.annotations.state",
+      "type": "string"
+    },
+    "files.annotations.status": {
+      "description": "Status of the annotation.",
+      "doc_type": "files",
+      "field": "annotations.status",
+      "full": "files.annotations.status",
+      "type": "string"
+    },
+    "files.annotations.submitter_id": {
+      "description": null,
+      "doc_type": "files",
+      "field": "annotations.submitter_id",
+      "full": "files.annotations.submitter_id",
+      "type": "string"
+    },
+    "files.annotations.updated_datetime": {
+      "description": "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]\n",
+      "doc_type": "files",
+      "field": "annotations.updated_datetime",
+      "full": "files.annotations.updated_datetime",
+      "type": "string"
+    },
+    "files.archive.archive_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "archive.archive_id",
+      "full": "files.archive.archive_id",
+      "type": "string"
+    },
+    "files.archive.created_datetime": {
+      "description": "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]\n",
+      "doc_type": "files",
+      "field": "archive.created_datetime",
+      "full": "files.archive.created_datetime",
+      "type": "string"
+    },
+    "files.archive.data_category": {
+      "description": "Broad categorization of the contents of the data file.\n",
+      "doc_type": "files",
+      "field": "archive.data_category",
+      "full": "files.archive.data_category",
+      "type": "string"
+    },
+    "files.archive.data_format": {
+      "description": "Format of the data files. \n",
+      "doc_type": "files",
+      "field": "archive.data_format",
+      "full": "files.archive.data_format",
+      "type": "string"
+    },
+    "files.archive.data_type": {
+      "description": "Specific content type of the data file.\n",
+      "doc_type": "files",
+      "field": "archive.data_type",
+      "full": "files.archive.data_type",
+      "type": "string"
+    },
+    "files.archive.error_type": {
+      "description": "Type of error for the data file object. \n",
+      "doc_type": "files",
+      "field": "archive.error_type",
+      "full": "files.archive.error_type",
+      "type": "string"
+    },
+    "files.archive.file_name": {
+      "description": "The name (or part of a name) of a file (of any type). \n",
+      "doc_type": "files",
+      "field": "archive.file_name",
+      "full": "files.archive.file_name",
+      "type": "string"
+    },
+    "files.archive.file_size": {
+      "description": "The size of the data file (object) in bytes. \n",
+      "doc_type": "files",
+      "field": "archive.file_size",
+      "full": "files.archive.file_size",
+      "type": "long"
+    },
+    "files.archive.file_state": {
+      "description": "The current state of the data file object.\n",
+      "doc_type": "files",
+      "field": "archive.file_state",
+      "full": "files.archive.file_state",
+      "type": "string"
+    },
+    "files.archive.md5sum": {
+      "description": "The 128-bit hash value expressed as a 32 digit hexadecimal number used as a file's digital fingerprint. \n",
+      "doc_type": "files",
+      "field": "archive.md5sum",
+      "full": "files.archive.md5sum",
+      "type": "string"
+    },
+    "files.archive.revision": {
+      "description": "The revision of this archive in the DCC.",
+      "doc_type": "files",
+      "field": "archive.revision",
+      "full": "files.archive.revision",
+      "type": "long"
+    },
+    "files.archive.state": {
+      "description": "The current state of the object.\n",
+      "doc_type": "files",
+      "field": "archive.state",
+      "full": "files.archive.state",
+      "type": "string"
+    },
+    "files.archive.state_comment": {
+      "description": "Optional comment about why the file is in the current state, mainly for invalid state.\n",
+      "doc_type": "files",
+      "field": "archive.state_comment",
+      "full": "files.archive.state_comment",
+      "type": "string"
+    },
+    "files.archive.submitter_id": {
+      "description": "The file id assigned by the submitter",
+      "doc_type": "files",
+      "field": "archive.submitter_id",
+      "full": "files.archive.submitter_id",
+      "type": "string"
+    },
+    "files.archive.updated_datetime": {
+      "description": "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]\n",
+      "doc_type": "files",
+      "field": "archive.updated_datetime",
+      "full": "files.archive.updated_datetime",
+      "type": "string"
+    },
+    "files.associated_entities.case_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "associated_entities.case_id",
+      "full": "files.associated_entities.case_id",
+      "type": "string"
+    },
+    "files.associated_entities.entity_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "associated_entities.entity_id",
+      "full": "files.associated_entities.entity_id",
+      "type": "string"
+    },
+    "files.associated_entities.entity_submitter_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "associated_entities.entity_submitter_id",
+      "full": "files.associated_entities.entity_submitter_id",
+      "type": "string"
+    },
+    "files.associated_entities.entity_type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "associated_entities.entity_type",
+      "full": "files.associated_entities.entity_type",
+      "type": "string"
+    },
+    "files.cases.case_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "cases.case_id",
+      "full": "files.cases.case_id",
+      "type": "id"
+    },
+    "files.cases.submitter_id": {
+      "description": null,
+      "doc_type": "files",
+      "field": "cases.submitter_id",
+      "full": "files.cases.submitter_id",
+      "type": "id"
+    },
+    "files.center.center_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "center.center_id",
+      "full": "files.center.center_id",
+      "type": "string"
+    },
+    "files.center.center_type": {
+      "description": "Type classification of the center (e.g. CGCC).",
+      "doc_type": "files",
+      "field": "center.center_type",
+      "full": "files.center.center_type",
+      "type": "string"
+    },
+    "files.center.code": {
+      "description": "Numeric code for the center.",
+      "doc_type": "files",
+      "field": "center.code",
+      "full": "files.center.code",
+      "type": "string"
+    },
+    "files.center.name": {
+      "description": "Name of the center (e.g. Broad Institute of MIT and Harvard).",
+      "doc_type": "files",
+      "field": "center.name",
+      "full": "files.center.name",
+      "type": "string"
+    },
+    "files.center.namespace": {
+      "description": "Domain name of the center (e.g. borad.mit.edu).",
+      "doc_type": "files",
+      "field": "center.namespace",
+      "full": "files.center.namespace",
+      "type": "string"
+    },
+    "files.center.short_name": {
+      "description": "Shortened name of the center (e.g. BI).",
+      "doc_type": "files",
+      "field": "center.short_name",
+      "full": "files.center.short_name",
+      "type": "string"
+    },
+    "files.created_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "created_datetime",
+      "full": "files.created_datetime",
+      "type": "string"
+    },
+    "files.data_category": {
+      "description": "",
+      "doc_type": "files",
+      "field": "data_category",
+      "full": "files.data_category",
+      "type": "string"
+    },
+    "files.data_format": {
+      "description": "",
+      "doc_type": "files",
+      "field": "data_format",
+      "full": "files.data_format",
+      "type": "string"
+    },
+    "files.data_type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "data_type",
+      "full": "files.data_type",
+      "type": "string"
+    },
+    "files.downstream_analyses.analysis_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.analysis_id",
+      "full": "files.downstream_analyses.analysis_id",
+      "type": "string"
+    },
+    "files.downstream_analyses.analysis_type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.analysis_type",
+      "full": "files.downstream_analyses.analysis_type",
+      "type": "string"
+    },
+    "files.downstream_analyses.created_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.created_datetime",
+      "full": "files.downstream_analyses.created_datetime",
+      "type": "string"
+    },
+    "files.downstream_analyses.output_files.created_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.created_datetime",
+      "full": "files.downstream_analyses.output_files.created_datetime",
+      "type": "string"
+    },
+    "files.downstream_analyses.output_files.data_category": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.data_category",
+      "full": "files.downstream_analyses.output_files.data_category",
+      "type": "string"
+    },
+    "files.downstream_analyses.output_files.data_format": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.data_format",
+      "full": "files.downstream_analyses.output_files.data_format",
+      "type": "string"
+    },
+    "files.downstream_analyses.output_files.data_type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.data_type",
+      "full": "files.downstream_analyses.output_files.data_type",
+      "type": "string"
+    },
+    "files.downstream_analyses.output_files.error_type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.error_type",
+      "full": "files.downstream_analyses.output_files.error_type",
+      "type": "string"
+    },
+    "files.downstream_analyses.output_files.experimental_strategy": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.experimental_strategy",
+      "full": "files.downstream_analyses.output_files.experimental_strategy",
+      "type": "string"
+    },
+    "files.downstream_analyses.output_files.file_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.file_id",
+      "full": "files.downstream_analyses.output_files.file_id",
+      "type": "id"
+    },
+    "files.downstream_analyses.output_files.file_name": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.file_name",
+      "full": "files.downstream_analyses.output_files.file_name",
+      "type": "string"
+    },
+    "files.downstream_analyses.output_files.file_size": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.file_size",
+      "full": "files.downstream_analyses.output_files.file_size",
+      "type": "long"
+    },
+    "files.downstream_analyses.output_files.file_state": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.file_state",
+      "full": "files.downstream_analyses.output_files.file_state",
+      "type": "string"
+    },
+    "files.downstream_analyses.output_files.md5sum": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.md5sum",
+      "full": "files.downstream_analyses.output_files.md5sum",
+      "type": "string"
+    },
+    "files.downstream_analyses.output_files.platform": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.platform",
+      "full": "files.downstream_analyses.output_files.platform",
+      "type": "string"
+    },
+    "files.downstream_analyses.output_files.revision": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.revision",
+      "full": "files.downstream_analyses.output_files.revision",
+      "type": "long"
+    },
+    "files.downstream_analyses.output_files.state": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.state",
+      "full": "files.downstream_analyses.output_files.state",
+      "type": "string"
+    },
+    "files.downstream_analyses.output_files.state_comment": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.state_comment",
+      "full": "files.downstream_analyses.output_files.state_comment",
+      "type": "string"
+    },
+    "files.downstream_analyses.output_files.submitter_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.submitter_id",
+      "full": "files.downstream_analyses.output_files.submitter_id",
+      "type": "string"
+    },
+    "files.downstream_analyses.output_files.updated_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.output_files.updated_datetime",
+      "full": "files.downstream_analyses.output_files.updated_datetime",
+      "type": "string"
+    },
+    "files.downstream_analyses.state": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.state",
+      "full": "files.downstream_analyses.state",
+      "type": "string"
+    },
+    "files.downstream_analyses.submitter_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.submitter_id",
+      "full": "files.downstream_analyses.submitter_id",
+      "type": "string"
+    },
+    "files.downstream_analyses.updated_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.updated_datetime",
+      "full": "files.downstream_analyses.updated_datetime",
+      "type": "string"
+    },
+    "files.downstream_analyses.workflow_end_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.workflow_end_datetime",
+      "full": "files.downstream_analyses.workflow_end_datetime",
+      "type": "string"
+    },
+    "files.downstream_analyses.workflow_link": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.workflow_link",
+      "full": "files.downstream_analyses.workflow_link",
+      "type": "string"
+    },
+    "files.downstream_analyses.workflow_start_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.workflow_start_datetime",
+      "full": "files.downstream_analyses.workflow_start_datetime",
+      "type": "string"
+    },
+    "files.downstream_analyses.workflow_type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.workflow_type",
+      "full": "files.downstream_analyses.workflow_type",
+      "type": "string"
+    },
+    "files.downstream_analyses.workflow_version": {
+      "description": "",
+      "doc_type": "files",
+      "field": "downstream_analyses.workflow_version",
+      "full": "files.downstream_analyses.workflow_version",
+      "type": "string"
+    },
+    "files.error_type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "error_type",
+      "full": "files.error_type",
+      "type": "string"
+    },
+    "files.experimental_strategy": {
+      "description": "",
+      "doc_type": "files",
+      "field": "experimental_strategy",
+      "full": "files.experimental_strategy",
+      "type": "string"
+    },
+    "files.file_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "file_id",
+      "full": "files.file_id",
+      "type": "id"
+    },
+    "files.file_name": {
+      "description": "",
+      "doc_type": "files",
+      "field": "file_name",
+      "full": "files.file_name",
+      "type": "id"
+    },
+    "files.file_size": {
+      "description": "",
+      "doc_type": "files",
+      "field": "file_size",
+      "full": "files.file_size",
+      "type": "long"
+    },
+    "files.file_state": {
+      "description": "",
+      "doc_type": "files",
+      "field": "file_state",
+      "full": "files.file_state",
+      "type": "string"
+    },
+    "files.index_files.created_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.created_datetime",
+      "full": "files.index_files.created_datetime",
+      "type": "string"
+    },
+    "files.index_files.data_category": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.data_category",
+      "full": "files.index_files.data_category",
+      "type": "string"
+    },
+    "files.index_files.data_format": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.data_format",
+      "full": "files.index_files.data_format",
+      "type": "string"
+    },
+    "files.index_files.data_type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.data_type",
+      "full": "files.index_files.data_type",
+      "type": "string"
+    },
+    "files.index_files.error_type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.error_type",
+      "full": "files.index_files.error_type",
+      "type": "string"
+    },
+    "files.index_files.experimental_strategy": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.experimental_strategy",
+      "full": "files.index_files.experimental_strategy",
+      "type": "string"
+    },
+    "files.index_files.file_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.file_id",
+      "full": "files.index_files.file_id",
+      "type": "string"
+    },
+    "files.index_files.file_name": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.file_name",
+      "full": "files.index_files.file_name",
+      "type": "string"
+    },
+    "files.index_files.file_size": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.file_size",
+      "full": "files.index_files.file_size",
+      "type": "long"
+    },
+    "files.index_files.file_state": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.file_state",
+      "full": "files.index_files.file_state",
+      "type": "string"
+    },
+    "files.index_files.md5sum": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.md5sum",
+      "full": "files.index_files.md5sum",
+      "type": "string"
+    },
+    "files.index_files.platform": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.platform",
+      "full": "files.index_files.platform",
+      "type": "string"
+    },
+    "files.index_files.revision": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.revision",
+      "full": "files.index_files.revision",
+      "type": "long"
+    },
+    "files.index_files.state": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.state",
+      "full": "files.index_files.state",
+      "type": "string"
+    },
+    "files.index_files.state_comment": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.state_comment",
+      "full": "files.index_files.state_comment",
+      "type": "string"
+    },
+    "files.index_files.submitter_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.submitter_id",
+      "full": "files.index_files.submitter_id",
+      "type": "string"
+    },
+    "files.index_files.updated_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "index_files.updated_datetime",
+      "full": "files.index_files.updated_datetime",
+      "type": "string"
+    },
+    "files.md5sum": {
+      "description": "",
+      "doc_type": "files",
+      "field": "md5sum",
+      "full": "files.md5sum",
+      "type": "string"
+    },
+    "files.metadata_files.access": {
+      "description": "",
+      "doc_type": "files",
+      "field": "metadata_files.access",
+      "full": "files.metadata_files.access",
+      "type": "string"
+    },
+    "files.metadata_files.created_datetime": {
+      "description": "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]\n",
+      "doc_type": "files",
+      "field": "metadata_files.created_datetime",
+      "full": "files.metadata_files.created_datetime",
+      "type": "string"
+    },
+    "files.metadata_files.data_category": {
+      "description": "",
+      "doc_type": "files",
+      "field": "metadata_files.data_category",
+      "full": "files.metadata_files.data_category",
+      "type": "string"
+    },
+    "files.metadata_files.data_format": {
+      "description": "",
+      "doc_type": "files",
+      "field": "metadata_files.data_format",
+      "full": "files.metadata_files.data_format",
+      "type": "string"
+    },
+    "files.metadata_files.data_type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "metadata_files.data_type",
+      "full": "files.metadata_files.data_type",
+      "type": "string"
+    },
+    "files.metadata_files.error_type": {
+      "description": "Type of error for the data file object. \n",
+      "doc_type": "files",
+      "field": "metadata_files.error_type",
+      "full": "files.metadata_files.error_type",
+      "type": "string"
+    },
+    "files.metadata_files.file_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "metadata_files.file_id",
+      "full": "files.metadata_files.file_id",
+      "type": "string"
+    },
+    "files.metadata_files.file_name": {
+      "description": "The file (object) name",
+      "doc_type": "files",
+      "field": "metadata_files.file_name",
+      "full": "files.metadata_files.file_name",
+      "type": "string"
+    },
+    "files.metadata_files.file_size": {
+      "description": "The size file (object) in bytes",
+      "doc_type": "files",
+      "field": "metadata_files.file_size",
+      "full": "files.metadata_files.file_size",
+      "type": "long"
+    },
+    "files.metadata_files.file_state": {
+      "description": "The current state of the data file object.\n",
+      "doc_type": "files",
+      "field": "metadata_files.file_state",
+      "full": "files.metadata_files.file_state",
+      "type": "string"
+    },
+    "files.metadata_files.md5sum": {
+      "description": "The MD5 hash of this file",
+      "doc_type": "files",
+      "field": "metadata_files.md5sum",
+      "full": "files.metadata_files.md5sum",
+      "type": "string"
+    },
+    "files.metadata_files.state": {
+      "description": "The current state of the object.\n",
+      "doc_type": "files",
+      "field": "metadata_files.state",
+      "full": "files.metadata_files.state",
+      "type": "string"
+    },
+    "files.metadata_files.state_comment": {
+      "description": "Optional comment about why the file is in the current state, mainly for invalid state.\n",
+      "doc_type": "files",
+      "field": "metadata_files.state_comment",
+      "full": "files.metadata_files.state_comment",
+      "type": "string"
+    },
+    "files.metadata_files.submitter_id": {
+      "description": "The file id assigned by the submitter",
+      "doc_type": "files",
+      "field": "metadata_files.submitter_id",
+      "full": "files.metadata_files.submitter_id",
+      "type": "string"
+    },
+    "files.metadata_files.type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "metadata_files.type",
+      "full": "files.metadata_files.type",
+      "type": "string"
+    },
+    "files.metadata_files.updated_datetime": {
+      "description": "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]\n",
+      "doc_type": "files",
+      "field": "metadata_files.updated_datetime",
+      "full": "files.metadata_files.updated_datetime",
+      "type": "string"
+    },
+    "files.origin": {
+      "description": "",
+      "doc_type": "files",
+      "field": "origin",
+      "full": "files.origin",
+      "type": "string"
+    },
+    "files.platform": {
+      "description": "",
+      "doc_type": "files",
+      "field": "platform",
+      "full": "files.platform",
+      "type": "string"
+    },
+    "files.revision": {
+      "description": "",
+      "doc_type": "files",
+      "field": "revision",
+      "full": "files.revision",
+      "type": "long"
+    },
+    "files.state": {
+      "description": "",
+      "doc_type": "files",
+      "field": "state",
+      "full": "files.state",
+      "type": "string"
+    },
+    "files.state_comment": {
+      "description": "",
+      "doc_type": "files",
+      "field": "state_comment",
+      "full": "files.state_comment",
+      "type": "string"
+    },
+    "files.submitter_id": {
+      "description": "",
+      "doc_type": "files",
+      "field": "submitter_id",
+      "full": "files.submitter_id",
+      "type": "string"
+    },
+    "files.tags": {
+      "description": "",
+      "doc_type": "files",
+      "field": "tags",
+      "full": "files.tags",
+      "type": "string"
+    },
+    "files.type": {
+      "description": "",
+      "doc_type": "files",
+      "field": "type",
+      "full": "files.type",
+      "type": "string"
+    },
+    "files.updated_datetime": {
+      "description": "",
+      "doc_type": "files",
+      "field": "updated_datetime",
+      "full": "files.updated_datetime",
+      "type": "string"
+    }
+  },
+  "defaults": [
+    "origin",
+    "file_name",
+    "submitter_id",
+    "file_size",
+    "created_datetime",
+    "error_type",
+    "access",
+    "platform",
+    "state",
+    "type",
+    "file_state",
+    "experimental_strategy",
+    "data_type",
+    "tags",
+    "file_id",
+    "state_comment",
+    "md5sum",
+    "updated_datetime",
+    "data_format",
+    "acl",
+    "data_category",
+    "revision"
+  ],
+  "expand": [
+    "index_files",
+    "downstream_analyses",
+    "downstream_analyses.output_files",
+    "archive",
+    "metadata_files",
+    "annotations",
+    "cases",
+    "cases.demographic",
+    "cases.samples",
+    "cases.samples.annotations",
+    "cases.samples.portions",
+    "cases.samples.portions.center",
+    "cases.samples.portions.analytes",
+    "cases.samples.portions.analytes.aliquots",
+    "cases.samples.portions.analytes.aliquots.center",
+    "cases.samples.portions.analytes.aliquots.annotations",
+    "cases.samples.portions.analytes.annotations",
+    "cases.samples.portions.slides",
+    "cases.samples.portions.slides.annotations",
+    "cases.samples.portions.annotations",
+    "cases.annotations",
+    "cases.exposures",
+    "cases.files",
+    "cases.family_histories",
+    "cases.diagnoses",
+    "cases.diagnoses.treatments",
+    "cases.summary",
+    "cases.summary.data_categories",
+    "cases.summary.experimental_strategies",
+    "cases.project",
+    "cases.project.program",
+    "cases.tissue_source_site",
+    "center",
+    "analysis",
+    "analysis.metadata",
+    "analysis.metadata.read_groups",
+    "analysis.input_files",
+    "associated_entities"
+  ],
+  "fields": [
+    "origin",
+    "index_files.md5sum",
+    "index_files.data_type",
+    "index_files.updated_datetime",
+    "index_files.created_datetime",
+    "index_files.file_name",
+    "index_files.error_type",
+    "index_files.data_format",
+    "index_files.submitter_id",
+    "index_files.platform",
+    "index_files.state",
+    "index_files.file_id",
+    "index_files.data_category",
+    "index_files.file_size",
+    "index_files.experimental_strategy",
+    "index_files.state_comment",
+    "index_files.file_state",
+    "index_files.revision",
+    "file_name",
+    "downstream_analyses.analysis_id",
+    "downstream_analyses.updated_datetime",
+    "downstream_analyses.created_datetime",
+    "downstream_analyses.submitter_id",
+    "downstream_analyses.state",
+    "downstream_analyses.workflow_end_datetime",
+    "downstream_analyses.workflow_link",
+    "downstream_analyses.analysis_type",
+    "downstream_analyses.workflow_type",
+    "downstream_analyses.workflow_start_datetime",
+    "downstream_analyses.workflow_version",
+    "downstream_analyses.output_files.md5sum",
+    "downstream_analyses.output_files.data_type",
+    "downstream_analyses.output_files.updated_datetime",
+    "downstream_analyses.output_files.created_datetime",
+    "downstream_analyses.output_files.file_name",
+    "downstream_analyses.output_files.error_type",
+    "downstream_analyses.output_files.data_format",
+    "downstream_analyses.output_files.submitter_id",
+    "downstream_analyses.output_files.platform",
+    "downstream_analyses.output_files.state",
+    "downstream_analyses.output_files.file_id",
+    "downstream_analyses.output_files.data_category",
+    "downstream_analyses.output_files.file_size",
+    "downstream_analyses.output_files.revision",
+    "downstream_analyses.output_files.state_comment",
+    "downstream_analyses.output_files.file_state",
+    "downstream_analyses.output_files.experimental_strategy",
+    "submitter_id",
+    "file_size",
+    "archive.archive_id",
+    "archive.error_type",
+    "archive.data_type",
+    "archive.updated_datetime",
+    "archive.created_datetime",
+    "archive.file_name",
+    "archive.md5sum",
+    "archive.data_format",
+    "archive.submitter_id",
+    "archive.state",
+    "archive.data_category",
+    "archive.file_size",
+    "archive.state_comment",
+    "archive.file_state",
+    "archive.revision",
+    "created_datetime",
+    "error_type",
+    "access",
+    "platform",
+    "state",
+    "metadata_files.error_type",
+    "metadata_files.data_type",
+    "metadata_files.updated_datetime",
+    "metadata_files.created_datetime",
+    "metadata_files.file_name",
+    "metadata_files.md5sum",
+    "metadata_files.data_format",
+    "metadata_files.submitter_id",
+    "metadata_files.access",
+    "metadata_files.state",
+    "metadata_files.state_comment",
+    "metadata_files.file_id",
+    "metadata_files.data_category",
+    "metadata_files.file_size",
+    "metadata_files.type",
+    "metadata_files.file_state",
+    "type",
+    "annotations.category",
+    "annotations.legacy_updated_datetime",
+    "annotations.entity_id",
+    "annotations.classification",
+    "annotations.creator",
+    "annotations.created_datetime",
+    "annotations.entity_submitter_id",
+    "annotations.notes",
+    "annotations.updated_datetime",
+    "annotations.entity_type",
+    "annotations.legacy_created_datetime",
+    "annotations.state",
+    "annotations.case_id",
+    "annotations.status",
+    "annotations.submitter_id",
+    "annotations.annotation_id",
+    "annotations.case_submitter_id",
+    "file_state",
+    "experimental_strategy",
+    "data_type",
+    "tags",
+    "file_id",
+    "cases.updated_datetime",
+    "cases.submitter_analyte_ids",
+    "cases.analyte_ids",
+    "cases.submitter_id",
+    "cases.sample_ids",
+    "cases.portion_ids",
+    "cases.submitter_portion_ids",
+    "cases.created_datetime",
+    "cases.slide_ids",
+    "cases.days_to_index",
+    "cases.demographic.updated_datetime",
+    "cases.demographic.created_datetime",
+    "cases.demographic.gender",
+    "cases.demographic.year_of_birth",
+    "cases.demographic.submitter_id",
+    "cases.demographic.state",
+    "cases.demographic.race",
+    "cases.demographic.demographic_id",
+    "cases.demographic.ethnicity",
+    "cases.demographic.year_of_death",
+    "cases.state",
+    "cases.case_id",
+    "cases.samples.sample_type_id",
+    "cases.samples.updated_datetime",
+    "cases.samples.time_between_excision_and_freezing",
+    "cases.samples.oct_embedded",
+    "cases.samples.tumor_code_id",
+    "cases.samples.submitter_id",
+    "cases.samples.intermediate_dimension",
+    "cases.samples.sample_id",
+    "cases.samples.is_ffpe",
+    "cases.samples.pathology_report_uuid",
+    "cases.samples.created_datetime",
+    "cases.samples.tumor_descriptor",
+    "cases.samples.sample_type",
+    "cases.samples.state",
+    "cases.samples.current_weight",
+    "cases.samples.annotations.category",
+    "cases.samples.annotations.legacy_updated_datetime",
+    "cases.samples.annotations.entity_id",
+    "cases.samples.annotations.classification",
+    "cases.samples.annotations.creator",
+    "cases.samples.annotations.created_datetime",
+    "cases.samples.annotations.annotation_id",
+    "cases.samples.annotations.notes",
+    "cases.samples.annotations.updated_datetime",
+    "cases.samples.annotations.legacy_created_datetime",
+    "cases.samples.annotations.state",
+    "cases.samples.annotations.case_id",
+    "cases.samples.annotations.status",
+    "cases.samples.annotations.case_submitter_id",
+    "cases.samples.annotations.submitter_id",
+    "cases.samples.annotations.entity_submitter_id",
+    "cases.samples.annotations.entity_type",
+    "cases.samples.time_between_clamping_and_freezing",
+    "cases.samples.shortest_dimension",
+    "cases.samples.tumor_code",
+    "cases.samples.tissue_type",
+    "cases.samples.days_to_sample_procurement",
+    "cases.samples.freezing_method",
+    "cases.samples.portions.creation_datetime",
+    "cases.samples.portions.center.code",
+    "cases.samples.portions.center.name",
+    "cases.samples.portions.center.short_name",
+    "cases.samples.portions.center.namespace",
+    "cases.samples.portions.center.center_id",
+    "cases.samples.portions.center.center_type",
+    "cases.samples.portions.weight",
+    "cases.samples.portions.updated_datetime",
+    "cases.samples.portions.created_datetime",
+    "cases.samples.portions.analytes.updated_datetime",
+    "cases.samples.portions.analytes.created_datetime",
+    "cases.samples.portions.analytes.well_number",
+    "cases.samples.portions.analytes.analyte_type",
+    "cases.samples.portions.analytes.submitter_id",
+    "cases.samples.portions.analytes.analyte_id",
+    "cases.samples.portions.analytes.amount",
+    "cases.samples.portions.analytes.state",
+    "cases.samples.portions.analytes.aliquots.state",
+    "cases.samples.portions.analytes.aliquots.center.code",
+    "cases.samples.portions.analytes.aliquots.center.name",
+    "cases.samples.portions.analytes.aliquots.center.short_name",
+    "cases.samples.portions.analytes.aliquots.center.namespace",
+    "cases.samples.portions.analytes.aliquots.center.center_id",
+    "cases.samples.portions.analytes.aliquots.center.center_type",
+    "cases.samples.portions.analytes.aliquots.updated_datetime",
+    "cases.samples.portions.analytes.aliquots.created_datetime",
+    "cases.samples.portions.analytes.aliquots.source_center",
+    "cases.samples.portions.analytes.aliquots.analyte_type",
+    "cases.samples.portions.analytes.aliquots.submitter_id",
+    "cases.samples.portions.analytes.aliquots.amount",
+    "cases.samples.portions.analytes.aliquots.aliquot_id",
+    "cases.samples.portions.analytes.aliquots.concentration",
+    "cases.samples.portions.analytes.aliquots.analyte_type_id",
+    "cases.samples.portions.analytes.aliquots.annotations.category",
+    "cases.samples.portions.analytes.aliquots.annotations.legacy_updated_datetime",
+    "cases.samples.portions.analytes.aliquots.annotations.entity_id",
+    "cases.samples.portions.analytes.aliquots.annotations.classification",
+    "cases.samples.portions.analytes.aliquots.annotations.creator",
+    "cases.samples.portions.analytes.aliquots.annotations.created_datetime",
+    "cases.samples.portions.analytes.aliquots.annotations.annotation_id",
+    "cases.samples.portions.analytes.aliquots.annotations.notes",
+    "cases.samples.portions.analytes.aliquots.annotations.updated_datetime",
+    "cases.samples.portions.analytes.aliquots.annotations.legacy_created_datetime",
+    "cases.samples.portions.analytes.aliquots.annotations.state",
+    "cases.samples.portions.analytes.aliquots.annotations.case_id",
+    "cases.samples.portions.analytes.aliquots.annotations.status",
+    "cases.samples.portions.analytes.aliquots.annotations.case_submitter_id",
+    "cases.samples.portions.analytes.aliquots.annotations.submitter_id",
+    "cases.samples.portions.analytes.aliquots.annotations.entity_submitter_id",
+    "cases.samples.portions.analytes.aliquots.annotations.entity_type",
+    "cases.samples.portions.analytes.a260_a280_ratio",
+    "cases.samples.portions.analytes.concentration",
+    "cases.samples.portions.analytes.spectrophotometer_method",
+    "cases.samples.portions.analytes.analyte_type_id",
+    "cases.samples.portions.analytes.annotations.category",
+    "cases.samples.portions.analytes.annotations.legacy_updated_datetime",
+    "cases.samples.portions.analytes.annotations.entity_id",
+    "cases.samples.portions.analytes.annotations.classification",
+    "cases.samples.portions.analytes.annotations.creator",
+    "cases.samples.portions.analytes.annotations.created_datetime",
+    "cases.samples.portions.analytes.annotations.annotation_id",
+    "cases.samples.portions.analytes.annotations.notes",
+    "cases.samples.portions.analytes.annotations.updated_datetime",
+    "cases.samples.portions.analytes.annotations.legacy_created_datetime",
+    "cases.samples.portions.analytes.annotations.state",
+    "cases.samples.portions.analytes.annotations.case_id",
+    "cases.samples.portions.analytes.annotations.status",
+    "cases.samples.portions.analytes.annotations.case_submitter_id",
+    "cases.samples.portions.analytes.annotations.submitter_id",
+    "cases.samples.portions.analytes.annotations.entity_submitter_id",
+    "cases.samples.portions.analytes.annotations.entity_type",
+    "cases.samples.portions.submitter_id",
+    "cases.samples.portions.slides.percent_tumor_nuclei",
+    "cases.samples.portions.slides.percent_eosinophil_infiltration",
+    "cases.samples.portions.slides.percent_normal_cells",
+    "cases.samples.portions.slides.updated_datetime",
+    "cases.samples.portions.slides.created_datetime",
+    "cases.samples.portions.slides.percent_monocyte_infiltration",
+    "cases.samples.portions.slides.percent_lymphocyte_infiltration",
+    "cases.samples.portions.slides.percent_stromal_cells",
+    "cases.samples.portions.slides.state",
+    "cases.samples.portions.slides.number_proliferating_cells",
+    "cases.samples.portions.slides.section_location",
+    "cases.samples.portions.slides.submitter_id",
+    "cases.samples.portions.slides.percent_granulocyte_infiltration",
+    "cases.samples.portions.slides.percent_necrosis",
+    "cases.samples.portions.slides.slide_id",
+    "cases.samples.portions.slides.percent_inflam_infiltration",
+    "cases.samples.portions.slides.percent_neutrophil_infiltration",
+    "cases.samples.portions.slides.annotations.category",
+    "cases.samples.portions.slides.annotations.legacy_updated_datetime",
+    "cases.samples.portions.slides.annotations.entity_id",
+    "cases.samples.portions.slides.annotations.classification",
+    "cases.samples.portions.slides.annotations.creator",
+    "cases.samples.portions.slides.annotations.created_datetime",
+    "cases.samples.portions.slides.annotations.annotation_id",
+    "cases.samples.portions.slides.annotations.notes",
+    "cases.samples.portions.slides.annotations.updated_datetime",
+    "cases.samples.portions.slides.annotations.legacy_created_datetime",
+    "cases.samples.portions.slides.annotations.state",
+    "cases.samples.portions.slides.annotations.case_id",
+    "cases.samples.portions.slides.annotations.status",
+    "cases.samples.portions.slides.annotations.case_submitter_id",
+    "cases.samples.portions.slides.annotations.submitter_id",
+    "cases.samples.portions.slides.annotations.entity_submitter_id",
+    "cases.samples.portions.slides.annotations.entity_type",
+    "cases.samples.portions.slides.percent_tumor_cells",
+    "cases.samples.portions.state",
+    "cases.samples.portions.portion_id",
+    "cases.samples.portions.is_ffpe",
+    "cases.samples.portions.annotations.category",
+    "cases.samples.portions.annotations.legacy_updated_datetime",
+    "cases.samples.portions.annotations.entity_id",
+    "cases.samples.portions.annotations.classification",
+    "cases.samples.portions.annotations.creator",
+    "cases.samples.portions.annotations.created_datetime",
+    "cases.samples.portions.annotations.annotation_id",
+    "cases.samples.portions.annotations.notes",
+    "cases.samples.portions.annotations.updated_datetime",
+    "cases.samples.portions.annotations.legacy_created_datetime",
+    "cases.samples.portions.annotations.state",
+    "cases.samples.portions.annotations.case_id",
+    "cases.samples.portions.annotations.status",
+    "cases.samples.portions.annotations.case_submitter_id",
+    "cases.samples.portions.annotations.submitter_id",
+    "cases.samples.portions.annotations.entity_submitter_id",
+    "cases.samples.portions.annotations.entity_type",
+    "cases.samples.portions.portion_number",
+    "cases.samples.preservation_method",
+    "cases.samples.composition",
+    "cases.samples.days_to_collection",
+    "cases.samples.initial_weight",
+    "cases.samples.longest_dimension",
+    "cases.submitter_sample_ids",
+    "cases.annotations.category",
+    "cases.annotations.legacy_updated_datetime",
+    "cases.annotations.entity_id",
+    "cases.annotations.classification",
+    "cases.annotations.creator",
+    "cases.annotations.created_datetime",
+    "cases.annotations.annotation_id",
+    "cases.annotations.notes",
+    "cases.annotations.updated_datetime",
+    "cases.annotations.legacy_created_datetime",
+    "cases.annotations.state",
+    "cases.annotations.case_id",
+    "cases.annotations.status",
+    "cases.annotations.case_submitter_id",
+    "cases.annotations.submitter_id",
+    "cases.annotations.entity_submitter_id",
+    "cases.annotations.entity_type",
+    "cases.exposures.cigarettes_per_day",
+    "cases.exposures.weight",
+    "cases.exposures.updated_datetime",
+    "cases.exposures.alcohol_history",
+    "cases.exposures.alcohol_intensity",
+    "cases.exposures.bmi",
+    "cases.exposures.years_smoked",
+    "cases.exposures.height",
+    "cases.exposures.created_datetime",
+    "cases.exposures.state",
+    "cases.exposures.exposure_id",
+    "cases.exposures.submitter_id",
+    "cases.files.md5sum",
+    "cases.files.updated_datetime",
+    "cases.files.created_datetime",
+    "cases.files.file_name",
+    "cases.files.error_type",
+    "cases.files.submitter_id",
+    "cases.files.state",
+    "cases.files.file_id",
+    "cases.files.file_size",
+    "cases.files.state_comment",
+    "cases.files.file_state",
+    "cases.family_histories.updated_datetime",
+    "cases.family_histories.created_datetime",
+    "cases.family_histories.relationship_primary_diagnosis",
+    "cases.family_histories.relative_with_cancer_history",
+    "cases.family_histories.relationship_age_at_diagnosis",
+    "cases.family_histories.state",
+    "cases.family_histories.family_history_id",
+    "cases.family_histories.relationship_type",
+    "cases.family_histories.submitter_id",
+    "cases.family_histories.relationship_gender",
+    "cases.diagnoses.classification_of_tumor",
+    "cases.diagnoses.last_known_disease_status",
+    "cases.diagnoses.updated_datetime",
+    "cases.diagnoses.primary_diagnosis",
+    "cases.diagnoses.submitter_id",
+    "cases.diagnoses.tumor_stage",
+    "cases.diagnoses.age_at_diagnosis",
+    "cases.diagnoses.vital_status",
+    "cases.diagnoses.morphology",
+    "cases.diagnoses.days_to_death",
+    "cases.diagnoses.days_to_last_known_disease_status",
+    "cases.diagnoses.created_datetime",
+    "cases.diagnoses.state",
+    "cases.diagnoses.days_to_recurrence",
+    "cases.diagnoses.diagnosis_id",
+    "cases.diagnoses.tumor_grade",
+    "cases.diagnoses.treatments.updated_datetime",
+    "cases.diagnoses.treatments.created_datetime",
+    "cases.diagnoses.treatments.therapeutic_agents",
+    "cases.diagnoses.treatments.submitter_id",
+    "cases.diagnoses.treatments.treatment_id",
+    "cases.diagnoses.treatments.state",
+    "cases.diagnoses.treatments.days_to_treatment",
+    "cases.diagnoses.treatments.treatment_intent_type",
+    "cases.diagnoses.treatments.treatment_or_therapy",
+    "cases.diagnoses.tissue_or_organ_of_origin",
+    "cases.diagnoses.days_to_birth",
+    "cases.diagnoses.progression_or_recurrence",
+    "cases.diagnoses.prior_malignancy",
+    "cases.diagnoses.site_of_resection_or_biopsy",
+    "cases.diagnoses.days_to_last_follow_up",
+    "cases.submitter_aliquot_ids",
+    "cases.summary.data_categories.file_count",
+    "cases.summary.data_categories.data_category",
+    "cases.summary.file_count",
+    "cases.summary.experimental_strategies.file_count",
+    "cases.summary.experimental_strategies.experimental_strategy",
+    "cases.summary.file_size",
+    "cases.project.project_id",
+    "cases.project.disease_type",
+    "cases.project.released",
+    "cases.project.state",
+    "cases.project.program.dbgap_accession_number",
+    "cases.project.program.name",
+    "cases.project.program.program_id",
+    "cases.project.primary_site",
+    "cases.project.dbgap_accession_number",
+    "cases.project.name",
+    "cases.aliquot_ids",
+    "cases.tissue_source_site.project",
+    "cases.tissue_source_site.bcr_id",
+    "cases.tissue_source_site.code",
+    "cases.tissue_source_site.tissue_source_site_id",
+    "cases.tissue_source_site.name",
+    "cases.submitter_slide_ids",
+    "state_comment",
+    "center.code",
+    "center.name",
+    "center.short_name",
+    "center.namespace",
+    "center.center_id",
+    "center.center_type",
+    "md5sum",
+    "updated_datetime",
+    "data_format",
+    "analysis.analysis_id",
+    "analysis.updated_datetime",
+    "analysis.created_datetime",
+    "analysis.metadata.read_groups.library_name",
+    "analysis.metadata.read_groups.is_paired_end",
+    "analysis.metadata.read_groups.size_selection_range",
+    "analysis.metadata.read_groups.adapter_sequence",
+    "analysis.metadata.read_groups.library_strand",
+    "analysis.metadata.read_groups.submitter_id",
+    "analysis.metadata.read_groups.library_preparation_kit_name",
+    "analysis.metadata.read_groups.to_trim_adapter_sequence",
+    "analysis.metadata.read_groups.target_capture_kit_name",
+    "analysis.metadata.read_groups.base_caller_version",
+    "analysis.metadata.read_groups.includes_spike_ins",
+    "analysis.metadata.read_groups.library_preparation_kit_version",
+    "analysis.metadata.read_groups.spike_ins_concentration",
+    "analysis.metadata.read_groups.created_datetime",
+    "analysis.metadata.read_groups.sequencing_date",
+    "analysis.metadata.read_groups.updated_datetime",
+    "analysis.metadata.read_groups.spike_ins_fasta",
+    "analysis.metadata.read_groups.RIN",
+    "analysis.metadata.read_groups.platform",
+    "analysis.metadata.read_groups.state",
+    "analysis.metadata.read_groups.library_selection",
+    "analysis.metadata.read_groups.library_strategy",
+    "analysis.metadata.read_groups.library_preparation_kit_catalog_number",
+    "analysis.metadata.read_groups.target_capture_kit_target_region",
+    "analysis.metadata.read_groups.target_capture_kit_version",
+    "analysis.metadata.read_groups.read_group_name",
+    "analysis.metadata.read_groups.library_preparation_kit_vendor",
+    "analysis.metadata.read_groups.target_capture_kit_vendor",
+    "analysis.metadata.read_groups.target_capture_kit_catalog_number",
+    "analysis.metadata.read_groups.instrument_model",
+    "analysis.metadata.read_groups.base_caller_name",
+    "analysis.metadata.read_groups.read_length",
+    "analysis.metadata.read_groups.experiment_name",
+    "analysis.metadata.read_groups.flow_cell_barcode",
+    "analysis.metadata.read_groups.sequencing_center",
+    "analysis.metadata.read_groups.read_group_id",
+    "analysis.metadata.read_groups.adapter_name",
+    "analysis.submitter_id",
+    "analysis.state",
+    "analysis.workflow_end_datetime",
+    "analysis.workflow_link",
+    "analysis.analysis_type",
+    "analysis.workflow_type",
+    "analysis.workflow_start_datetime",
+    "analysis.workflow_version",
+    "analysis.input_files.md5sum",
+    "analysis.input_files.data_type",
+    "analysis.input_files.updated_datetime",
+    "analysis.input_files.created_datetime",
+    "analysis.input_files.file_name",
+    "analysis.input_files.error_type",
+    "analysis.input_files.data_format",
+    "analysis.input_files.submitter_id",
+    "analysis.input_files.platform",
+    "analysis.input_files.state",
+    "analysis.input_files.file_id",
+    "analysis.input_files.data_category",
+    "analysis.input_files.file_size",
+    "analysis.input_files.experimental_strategy",
+    "analysis.input_files.state_comment",
+    "analysis.input_files.file_state",
+    "analysis.input_files.revision",
+    "acl",
+    "data_category",
+    "associated_entities.entity_id",
+    "associated_entities.case_id",
+    "associated_entities.entity_submitter_id",
+    "associated_entities.entity_type",
+    "revision"
+  ],
+  "multi": [
+    "file_name",
+    "downstream_analyses.output_files.file_id",
+    "file_id",
+    "cases.submitter_id",
+    "cases.case_id",
+    "analysis.input_files.file_id"
+  ],
+  "nested": [
+    "index_files",
+    "downstream_analyses",
+    "downstream_analyses.output_files",
+    "metadata_files",
+    "annotations",
+    "cases",
+    "cases.samples",
+    "cases.samples.annotations",
+    "cases.samples.portions",
+    "cases.samples.portions.analytes",
+    "cases.samples.portions.analytes.aliquots",
+    "cases.samples.portions.analytes.aliquots.annotations",
+    "cases.samples.portions.analytes.annotations",
+    "cases.samples.portions.slides",
+    "cases.samples.portions.slides.annotations",
+    "cases.samples.portions.annotations",
+    "cases.annotations",
+    "cases.exposures",
+    "cases.files",
+    "cases.family_histories",
+    "cases.diagnoses",
+    "cases.diagnoses.treatments",
+    "cases.summary.data_categories",
+    "cases.summary.experimental_strategies",
+    "analysis.metadata.read_groups",
+    "analysis.input_files",
+    "associated_entities"
+  ]
+}
