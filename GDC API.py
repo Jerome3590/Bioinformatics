@@ -1,6 +1,5 @@
 import os
 import pycurl
-import json
 
 
 os.chdir("C:/Users/Jerome/Documents/Bioinformatics")
@@ -8,9 +7,9 @@ os.chdir("C:/Users/Jerome/Documents/Bioinformatics")
 GDC_URL = 'https://gdc-api.nci.nih.gov/files'
 GDC_URL_legacy = 'https://gdc-api.nci.nih.gov/legacy/files/'
 
-data = 'gdc_manifestAPI.txt'
+data = 'GDC_Metadata_viaAPI_v9.txt'
 
-with open('GDC_metadata.txt', 'wb') as gdc:
+with open('GDC_Metadata.txt', 'wb') as gdc:
 
     c = pycurl.Curl()
     c.setopt(pycurl.URL, GDC_URL)
