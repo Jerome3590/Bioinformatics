@@ -1,7 +1,6 @@
 import os
 import pycurl
 import json
-import re
 
 os.chdir("C:/Users/Jerome/PycharmProjects/Bioinformatics")
 
@@ -73,6 +72,16 @@ def CaseID_query():
           c.close()
 
 
+
+def formatFileUUIDs():
+
+    with open("File_UUIDs.txt","r") as input:
+       with open("FileUUID.txt","w") as output:
+           for line in input:
+               if line!="file_id"+"\n":
+                   output.write(line)
+
+
 def formatCaseFile():
 
     with open("CaseIDs.txt","r") as input:
@@ -82,41 +91,79 @@ def formatCaseFile():
                    output.write(line)
 
 
-def queryCaseID_test():
 
-    with open('CaseID.txt', 'r') as cc:
+def Sample_Data_query():
+
+    with open('FileUUID.txt', 'r') as ss:
         payload = []
-        for line in cc:
+        for line in ss:
             payload.append(line.rstrip())
 
     data = json.dumps({
         "filters":{
            "op":"in",
            "content":{
-           "field":"annotation.case_id",
+           "field":"cases.cases_id",
+           "value": payload  }},
+           "format": "TSV",
+           "fields": "cases.samples.sample_id, cases.sample.sample_type, cases.sample.tissue_type, cases.sample.tumor_code",
+           "size": "1000000"
+       })
+
+    print(data)
+
+    with open('Sample_Data.txt', 'wb') as sdc:
+
+          c = pycurl.Curl()
+          c.setopt(pycurl.URL, GDC_URL_legacy)
+          c.setopt(pycurl.HTTPHEADER, ['Content-Type: application/json'])
+          c.setopt(pycurl.POST, 1)
+          c.setopt(pycurl.POSTFIELDS, data)
+          c.setopt(pycurl.WRITEDATA, sdc)
+          c.perform()
+          c.close()
+
+
+def FileUUID_query():
+
+    with open('gdc_manifest.txt', 'r') as ff:
+        payload = []
+        for line in ff:
+            payload.append(line.rstrip())
+
+    data = json.dumps({
+        "filters":{
+           "op":"in",
+           "content":{
+           "field":"files.file_id",
            "value": payload  }},
            "format": "TSV",
            "fields": "file_id,",
            "size": "1000000"
        })
 
-    with open('Classification.txt', 'wb') as cdg:
+    with open('File_UUIDs.txt', 'wb') as fff:
 
           c = pycurl.Curl()
           c.setopt(pycurl.URL, GDC_URL)
           c.setopt(pycurl.HTTPHEADER, ['Content-Type: application/json'])
           c.setopt(pycurl.POST, 1)
           c.setopt(pycurl.POSTFIELDS, data)
-          c.setopt(pycurl.WRITEDATA, cdg)
+          c.setopt(pycurl.WRITEDATA, fff)
           c.perform()
           c.close()
 
 
-Clinical_Data_query()
 
-CaseID_query()
 
-formatCaseFile()
 
-#queryCaseID_test()
+#FileUUID_query()
+#formatFileUUIDs()
+
+#CaseID_query()
+#formatCaseFile()
+
+#Clinical_Data_query()
+
+Sample_Data_query()
 
