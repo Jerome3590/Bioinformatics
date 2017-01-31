@@ -102,7 +102,7 @@ def Sample_Data_query():
            "field":"cases_id",
            "value": payload  }},
            "format": "TSV",
-           "fields": "samples.sample_id, samples.sample_type, samples.tissue_type, samples.tumor_code",
+           "fields": "samples.sample_id,samples.sample_type,samples.tissue_type,samples.tumor_code",
            "size": "1000000"
        })
 
