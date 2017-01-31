@@ -4,7 +4,7 @@ import json
 
 os.chdir("C:/Users/Jerome/PycharmProjects/Bioinformatics")
 
-GDC_URL = 'https://gdc-api.nci.nih.gov/files/'
+GDC_URL = 'https://gdc-api.nci.nih.gov/cases/'
 GDC_URL_legacy = 'https://gdc-api.nci.nih.gov/legacy/files/'
 
 
@@ -90,7 +90,7 @@ def formatCaseFile():
 
 def Sample_Data_query():
 
-    with open('FileUUID.txt', 'r') as ss:
+    with open('CaseID.txt', 'r') as ss:
         payload = []
         for line in ss:
             payload.append(line.rstrip())
@@ -99,7 +99,7 @@ def Sample_Data_query():
         "filters":{
            "op":"in",
            "content":{
-           "field":"files.file_id",
+           "field":"cases_id",
            "value": payload  }},
            "format": "TSV",
            "fields": "samples.sample_id, samples.sample_type, samples.tissue_type, samples.tumor_code",
@@ -111,7 +111,7 @@ def Sample_Data_query():
     with open('Sample_Data.txt', 'wb') as sdc:
 
           c = pycurl.Curl()
-          c.setopt(pycurl.URL, GDC_URL_legacy)
+          c.setopt(pycurl.URL, GDC_URL)
           c.setopt(pycurl.HTTPHEADER, ['Content-Type: application/json'])
           c.setopt(pycurl.POST, 1)
           c.setopt(pycurl.POSTFIELDS, data)
@@ -157,7 +157,7 @@ def FileUUID_query():
 #CaseID_query()
 #formatCaseFile()
 
-Clinical_Data_query()
+#Clinical_Data_query()
 
 Sample_Data_query()
 
