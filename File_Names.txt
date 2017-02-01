@@ -1,0 +1,12 @@
+file_name	file_id
+nationwidechildrens.org_biospecimen.TCGA-B6-A1KN.xml	c114c21c-7972-4e0b-b259-93d16c9a54fb
+nationwidechildrens.org_clinical.TCGA-AR-A2LR.xml	c21802b6-829f-4285-b252-cff2f9ad80e0
+nationwidechildrens.org_clinical.TCGA-E2-A15R.xml	a4ee4f5b-568b-44a4-83f1-adf17e7deec5
+nationwidechildrens.org_clinical.TCGA-EW-A1P8.xml	081bd1e6-87be-45b1-92ee-a2c9c2f23a89
+nationwidechildrens.org_clinical.TCGA-BH-A0DT.xml	9f7ea427-ca19-4a0a-b002-c23fb5d42ae3
+nationwidechildrens.org_clinical.TCGA-D8-A73X.xml	c031932f-4aa8-42f6-b791-d79e912ab151
+nationwidechildrens.org_biospecimen.TCGA-UU-A93S.xml	ffc3e9ba-07f4-48b3-b5d2-95df2871d30d
+nationwidechildrens.org_clinical.TCGA-BH-A0C7.xml	20d5ed84-beda-4baf-9928-25df1acf9a44
+nationwidechildrens.org_clinical.TCGA-A8-A09Z.xml	eb01e958-3a97-4aee-acd6-ba1a86408b7a
+nationwidechildrens.org_biospecimen.TCGA-E9-A1RE.xml	17215f74-7a26-4436-8c87-c5fd4c82c7b6
+nationwidechildrens.org_biospecimen.TCGA-AC-A2QJ.xml	2dd0889c-d56f-48c2-ac12-7c67d8abd78c
