@@ -1,7 +1,6 @@
 import os
 import pycurl
 import json
-import platform
 from filecmp import cmp
 
 os.chdir("C:/Users/Jerome/PycharmProjects/Bioinformatics")
