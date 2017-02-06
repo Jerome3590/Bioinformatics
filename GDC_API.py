@@ -41,7 +41,7 @@ def filename_query():
 
 def case_id_query():
 
-    with open('FileUUID.txt', 'r') as cc:
+    with open('File_Names.txt', 'r') as cc:
         payload = []
         for line in cc:
             payload.append(line.rstrip())
